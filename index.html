@@ -16,33 +16,35 @@
         <h2 style="text-align: center">We'd love to hear from you!</h2>
       </div>
       <div class="row input-container">
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <label>Name</label>
-            <input type="text" required />
+        <form>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <label for="name">Name</label>
+              <input type="text" id="name" required />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input">
-            <label>Email</label>
-            <input type="text" required />
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="styled-input" style="float: right">
-            <label>Phone Number</label>
-            <input type="text" required />
+          <div class="col-md-6 col-sm-12">
+            <div class="styled-input" style="float: right">
+              <label for="tel">Phone Number</label>
+              <input type="tel"  id="tel" required />
+            </div>
           </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="styled-input wide">
-            <label for="textarea">Message</label>
-            <textarea required id="textarea"></textarea>
+          <div class="col-xs-12">
+            <div class="styled-input wide">
+              <label for="textarea">Message</label>
+              <textarea required id="textarea"></textarea>
+            </div>
           </div>
-        </div>
-        <div class="col-xs-12">
-          <div class="btn-lrg submit-btn">Send Message</div>
-        </div>
+          <div class="col-xs-12">
+            <div class="btn-lrg submit-btn">Send Message</div>
+          </div>
+        </form>
       </div>
     </div>
   </body>
